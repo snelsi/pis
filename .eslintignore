@@ -1,0 +1,3 @@
+node_modules
+src/react-app-env.d.ts
+next-env.d.ts
