@@ -21,7 +21,7 @@ function createApolloClient(initialState?): ApolloClient<NormalizedCacheObject> 
     return {
       headers: {
         ...headers,
-        "x-hasura-admin-secret": process.env.HASURA_SEVRET,
+        "x-hasura-admin-secret": process.env.HASURA_SECRET,
       },
     };
   });
