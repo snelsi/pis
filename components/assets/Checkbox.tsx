@@ -9,6 +9,8 @@ interface CheckboxProps {
   title: string;
   wide?: boolean;
   size?: "medium" | "small" | "mini" | "large";
+  required?: boolean;
+  [x: string]: any;
 }
 
 export const Checkbox: React.FC<CheckboxProps> = ({
